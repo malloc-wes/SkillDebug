@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
+import Youtube from './Youtube';
 
 
 class Learn extends Component  {
 
     render(){
         return (
-        <div>
-            <iframe src="https://jobscan.co/iframe?btncolor=1f57b5&utm_source=rutgersedubootcamp&utm_medium=iframe"width="800" height="650">
-               <p>Your browser does not support iframes.</p>
-               </iframe>
+            <div class="container">
+            {
+                <Youtube />
+            }
         </div>
         );
     }

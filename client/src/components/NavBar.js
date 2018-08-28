@@ -11,7 +11,7 @@ class NavBar extends Component {
             <div>
                 <nav className="grey darken-3" >
                     <div className="nav-wrapper">
-                        <a href="/" className="brand-logo"><img src={mainlogo} alt="log"></img></a>
+                        <a href="/home" className="brand-logo"><img src={mainlogo} alt="log"></img></a>
                         <a href="home.html" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                         <ul className="right hide-on-med-and-down">
                             <li><Link to="/charts"><i className="material-icons">pie_chart</i>Charts</Link></li>
